@@ -1,0 +1,83 @@
+.App {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+ 
+}
+
+
+
+.App-header {
+  position: relative;
+  width: 430px;
+  background-color: white;
+  /* background: transparent; */
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: whitesmoke;
+ 
+  /* height: 930px; */
+  margin-bottom: 100px;
+  z-index: 99;
+  overflow: hidden;
+  /* border-radius: 25px; */
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+
+.card {
+  /* border: 2px solid grey; */
+  animation: 4000ms fade ease-in-out;
+
+  margin: 10px;
+  width: 420px;
+  background-color: white;
+  height: 820px;
+  border-radius: 3px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 
+.css-m9glnp-MuiPaper-root-MuiDialog-paper{
+  border-radius: 40px;
+} */
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  margin: 0 ;
+  border-radius: 40px !important;
+  /* box-shadow: none; */
+  width: 360px;
+}
+/* .MuiDialogTitle-root .css-ypiqx9-MuiDialogContent-root{
+  box-shadow: none;
+} */
+
+
+.css-hz1bth-MuiDialog-container{
+  height: 200%;
+}
+
+/* .css-uhb5lp{
+  border-radius: 40px;
+} */
+
+/* 
+.css-ekeie0{
+  height: 200%;
+} */
